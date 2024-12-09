@@ -1,0 +1,88 @@
+/* @keyframes backAnimate {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+body {
+    background: linear-gradient(270deg, #FF9A9E, #FAD0C4, #FBC2EB, #A1C4FD);
+    background-size: 400% 400%;
+    animation: backAnimate 15s ease infinite;
+    color: white;
+} */
+
+body{
+    background-color: beige;
+}
+
+.alert{
+    position: absolute;
+    right: 2%;
+    bottom: 10px;
+    font-size: 20px;
+}
+
+.navbar {
+   background-color: #343a40;
+   margin-bottom: 50px;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.navbar-nav .nav-link {
+    margin: 0 10px;
+    color: #f8f9fa;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    transition: color 0.2s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #00bcd4;
+}
+
+.navbar-nav .dropdown-menu {
+    background: #e7eaec;
+    border: none;
+}
+
+.navbar-nav .dropdown-item {
+    color: #171718;
+}
+
+.navbar-nav .dropdown-item:hover {
+    background-color: #495057;
+    color: #00bcd4;
+}
+
+.navbar-nav {
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M1 2h14v2H1V2zm0 5h14v2H1V7zm0 5h14v2H1v-2z'/%3E%3C/svg%3E");
+}
+
+@media (max-width: 991px) {
+    .navbar-nav {
+        flex-direction: column;
+        align-items: start;
+    }
+}

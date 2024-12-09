@@ -1,0 +1,64 @@
+.row {
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    background-color: rgb(62, 8, 133);
+}
+
+.img-slider {
+    max-height: 100vh;
+    flex-wrap: wrap;
+    transition: transform .5s ease-in-out;
+    gap:50px ;
+}
+
+.item {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.icons .line {
+    width: 40px;
+    height: 8px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.line.active {
+    background-color: red;
+}
+
+.foot {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-items: center;
+}
+
+h1,
+p,
+.foot ,
+.join{
+    color: white;
+}
+
+.join{
+    display: flex;
+    min-width: 250px;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 25px;
+
+}
